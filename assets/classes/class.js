@@ -1,12 +1,12 @@
 
 class Persona {
   nombre = '';
-  codigo = '';
+  edad = '';
   frase  = '';
 
-  constructor(nombre, codigo, frase) {
+  constructor(nombre, edad, frase) {
     this.nombre = nombre;
-    this.codigo = codigo;
+    this.edad = edad;
     this.frase = frase;
   }
 };
